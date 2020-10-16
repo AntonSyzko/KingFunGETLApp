@@ -42,19 +42,19 @@ Processed files will be located at provided output folder
 Invalid log entries stored at invalid.log file without transformations.
 Transformed CSV files will represent correspondent Tracking Event
 
-##@Copyright
+## @Copyright
 
 Visit [King Games](https://www.king.com/)
 
-##Community 
+## Community 
 
 [King games community](https://community.king.com/en/?utm_campaign=king.com_community&utm_source=king.com)
 
-##Tech Blog
+## Tech Blog
 
 [King's Tech Blog at Medium](https://medium.com/@TechKing)
 
-##LinkedIn
+## LinkedIn
 
 [King's Linked In Profile](https://www.linkedin.com/company/king/)
 
