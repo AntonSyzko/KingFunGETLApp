@@ -3,34 +3,34 @@
   King FunG ETL application parses input log files, validates content, filters and transforms to corresponding file formats.
 ## Installation
 
-Use Maven as build package tool 
+##### Use Maven as build package tool 
 
 ```bash
 cd /{path to downloaded application parent directory}/KingFungLoggingProcessing
 ```
-For running tests execute :
+##### For running tests execute :
 ```bash
 mvn clean test
 ```
-For packaging application to executable JAR archive run:
+##### For packaging application to executable JAR archive run:
 ```bash
 mvn clean install
 ```
 
-To execute application run providing input and  output directories locations:
+##### To execute application run providing input and  output directories locations:
 ```bash
 java -jar target/KingFungLoggingProcessing-1.0-SNAPSHOT.jar \
 {fullPathToInputLogFilesDirectory} \ 
 {fullPathToOutputFilesDirectory} 
 ```
-Example Windows:
+###### Example Windows:
 ```bash
 java -jar KingFungLoggingProcessing-1.0-SNAPSHOT.jar \
  C:\Users\KingUser\data-processing-v3-java\data-processing-v3-java\input \
  C:\Users\KingUser\data-processing-v3-java\data-processing-v3-java\output22
 
 ```
-Example Unix:
+###### Example Unix:
 ```bash
 java -jar KingFungLoggingProcessing-1.0-SNAPSHOT.jar \
 /home/KingUser/data-processing-v3-java/data-processing-v3-java/input \
